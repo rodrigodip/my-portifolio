@@ -1,1 +1,20 @@
-/* You can add global styles to this file, and also import other style files */
+@import url("https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:wght@400;700&display=swap");
+
+:root {
+  --color-blue-strong: rgb(17, 84, 137);
+  --color-blue-medium: rgb(42, 146, 212);
+  --color-blue-ligth: rgb(217, 232, 233);
+}
+
+html,
+body {
+  height: 100%;
+  box-sizing: border-box;
+  background-color: var(--color-blue-ligth);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Libre Caslon Text', serif;
+}
